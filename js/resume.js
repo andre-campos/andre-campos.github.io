@@ -5,20 +5,20 @@ app.controller('ResumeCtrl', function($scope) {
         name: "André",
         lastName: "Campos",
         email: "drickcanada@gmail.com",
-        mobile: "604-360-6018"
+        mobile: "604-861-6018"
     };
     info.address = {
-        street: "9-715 Tobruck Ave",
-        city: "North Vancouver, BC",
+        street: "4741 Hazelnut Way",
+        city: "Tsawwassen, BC",
         country: "Canada",
-        zip: "V7P 1V9"
+        zip: "V4M 0C5"
     };
     info.stackOverflow = 323807;
     info.gitHub = "andre-campos";
     info.facebook = "andre.n.campos";
     info.linkedin = "andrencampos";
     info.photoUrl = "https://media.licdn.com/mpr/mpr/shrink_200_200/p/3/000/00d/39b/267fc2f.jpg";
-    info.bio = "André completed his undergrad at UVic and returned to his hometown, Manaus in 2007. He nearly moved to Europe for more education at ETH Zurich, but life threw a curve ball at him. Instead, he stayed in Manaus in order to battle cancer and completed a Masters program while doing that. He then created an application for customs clearance, which was first adopted by his family business. Inspired by the Stanford Ignite program, André turned that into a SaaS venture of its own. He decided to move back to Canada and reboot his career to join the gaming industry in 2017.";
+    info.bio = "André completed his undergrad at UVic and returned to his hometown, Manaus in 2007. He nearly moved to Europe for more education at ETH Zurich, but life threw a curve ball at him. Instead, he stayed in Manaus in order to battle cancer and completed a Masters program while doing that. He then created an application for customs clearance, which was first adopted by his family business. Inspired by the Stanford Ignite program, André turned that into a SaaS venture of its own. He decided to move back to Canada and reboot his career to join the entertainment industry in 2017.";
     info.twitter = undefined;
     resume.info = info;
     resume.education = [];
@@ -58,7 +58,7 @@ app.controller('ResumeCtrl', function($scope) {
 
 item = {
         title: "Senior Engineering Manager",
-        company: "Twitch",
+        company: "Twitch/IVS",
         location: "Remote",
         from: "11/2021",
         to: "present"
@@ -66,28 +66,22 @@ item = {
     item.url = "https://www.twitch.tv";
     item.duties = [];
 
-    item.duties.push("Worked closely with studios and tech leads towards establishing a long-term vision for cross-title social services");
-    item.duties.push("Interviewed dozens of candidates for full-time and internship positions");
-    item.duties.push("Led efforts to reduce toxicity in the Call of Duty online community");
+    item.duties.push("Joined a highly specialized working group to make the video platform disaster resilient and highly available")
+    item.duties.push("Handled company-wide responses and wrote post-mortems to various high-severity Twitch and IVS incidents");
+    item.duties.push("Attracted and retained talent by leading several interview loops and promoting multiple engineers");
+    item.duties.push("Led efforts to address technical debt and improve processes and code quality through code reviews and documentation");
 
     item.skills = [];
 
     item.skills.push({
         proficiency: "high",
-        name: "Python",
+        name: "AWS",
     });
     item.skills.push({
         proficiency: "high",
-        name: "Kubernetes",
+        name: "Go",
     });
-    item.skills.push({
-        proficiency: "high",
-        name: "C++"
-    });
-    item.skills.push({
-        proficiency: "high",
-        name: "Project Management"
-    });
+
     item.skills.push({
         proficiency: "high",
         name: "Leadership"
