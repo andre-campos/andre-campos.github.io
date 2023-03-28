@@ -69,7 +69,7 @@ item = {
     item.duties.push("Joined a highly specialized working group to make the video platform disaster resilient and highly available")
     item.duties.push("Handled company-wide responses and wrote post-mortems to various high-severity Twitch and IVS incidents");
     item.duties.push("Attracted and retained talent by leading several interview loops and promoting multiple engineers");
-    item.duties.push("Led efforts to address technical debt and improve processes and code quality through code reviews and documentation");
+    item.duties.push("Led efforts to address technical debt and improve processes, testing coverage, and overall code quality through code reviews and documentation");
 
     item.skills = [];
 
