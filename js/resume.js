@@ -56,12 +56,51 @@ app.controller('ResumeCtrl', function($scope) {
         items: []
     };
 
+item = {
+        title: "Senior Engineering Manager",
+        company: "Twitch",
+        location: "Remote",
+        from: "11/2021",
+        to: "present"
+    };
+    item.url = "https://www.twitch.tv";
+    item.duties = [];
+
+    item.duties.push("Worked closely with studios and tech leads towards establishing a long-term vision for cross-title social services");
+    item.duties.push("Interviewed dozens of candidates for full-time and internship positions");
+    item.duties.push("Led efforts to reduce toxicity in the Call of Duty online community");
+
+    item.skills = [];
+
+    item.skills.push({
+        proficiency: "high",
+        name: "Python",
+    });
+    item.skills.push({
+        proficiency: "high",
+        name: "Kubernetes",
+    });
+    item.skills.push({
+        proficiency: "high",
+        name: "C++"
+    });
+    item.skills.push({
+        proficiency: "high",
+        name: "Project Management"
+    });
+    item.skills.push({
+        proficiency: "high",
+        name: "Leadership"
+    });
+ 
+    resume.experience.items.push(item);
+
     item = {
         title: "Engineering Manager",
         company: "Demonware",
         location: "Vancouver, BC Canada",
         from: "08/2020",
-        to: "present"
+        to: "11/2021"
     };
     item.url = "https://www.demonware.net";
     item.duties = [];
