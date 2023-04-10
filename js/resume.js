@@ -66,10 +66,10 @@ item = {
     item.url = "https://www.twitch.tv";
     item.duties = [];
 
-    item.duties.push("Joined a highly specialized working group to make the video platform disaster resilient and highly available")
+    item.duties.push("Supported a group of 5 high-performing engineers (mostly senior) in charge of maintaining and enhancing services that support the global video infrastructure behind Twitch and IVS")
+    item.duties.push("Led efforts to address technical debt and improve processes, testing coverage, and overall code quality through code reviews and documentation -- and got glowing reviews from direct reports");
     item.duties.push("Handled company-wide responses and wrote post-mortems to various high-severity Twitch and IVS incidents");
     item.duties.push("Attracted and retained talent by leading several interview loops and promoting multiple engineers");
-    item.duties.push("Led efforts to address technical debt and improve processes, testing coverage, and overall code quality through code reviews and documentation");
 
     item.skills = [];
 
@@ -81,12 +81,15 @@ item = {
         proficiency: "high",
         name: "Go",
     });
-
+    item.skills.push({
+        proficiency: "high",
+        name: "Project Management"
+    });
     item.skills.push({
         proficiency: "high",
         name: "Leadership"
     });
- 
+
     resume.experience.items.push(item);
 
     item = {
@@ -203,10 +206,6 @@ item = {
     item.skills.push({
         proficiency: "high",
         name: "MySQL"
-    });
-    item.skills.push({
-        proficiency: "high",
-        name: "GitHub"
     });
  
     resume.experience.items.push(item);
