@@ -143,7 +143,6 @@ item = {
 
     item.duties.push("Led a team of 10+ Engineers (devs and SREs) responsible for creating online features for Call of Duty: Modern Warfare");
     item.duties.push("Worked closely with Infinity Ward and High Moon Studios to deliver novel services for cross-play support");   
-    item.duties.push("Provided Infinity Ward with heroic launch support for Modern Warfare and Warzone");
     item.duties.push("Led planning and building out services in Kubernetes for the first time in Demonware history at a large scale");
 
     item.skills = [];
@@ -182,11 +181,8 @@ item = {
     item.duties = [];
 
     item.duties.push("Led load testing efforts at unprecedented scale to push the boundaries of Demonware infrastructure in order to identify and mitigate performance bottlenecks for Call of Duty: Black Ops IIII");
-
     item.duties.push("Built scripts for analyzing and planning hardware allocation and to provision significant portions of the virtualized infrastructure behind the online services of Call of Duty: Black Ops IIII");
-
     item.duties.push("Developed features used by millions of Call of Duty players worldwide");
-    item.duties.push("Provided Call of Duty studios with excellent technical support of Demonware's tech");
 
 
     item.skills = [];
@@ -212,7 +208,7 @@ item = {
 
 
     item = {
-        title: "Founder & CEO",
+        title: "Founder",
         company: "Sigraweb",
         location: "Manaus, AM Brazil",
         from: "01/2016",
@@ -221,8 +217,8 @@ item = {
     item.url = "http://www.sigraweb.com";
     item.duties = [];
 
-    item.duties.push("Led a team of one software developer and one business specialist in the process of designing and shipping a SaaS product targeted at international commerce players");
-    item.duties.push("The platform was launched in 2017 and currently has 4 corporate clients and generates monthly revenue of 25k BRL");
+    item.duties.push("Led a team of one software developer and one business specialist in the process of designing and shipping a SaaS product targeted at customs brokers in Brazil");
+    item.duties.push("Successfully exited the venture in 2022");
 
     item.skills = [];
 
@@ -251,7 +247,7 @@ item = {
         proficiency: "high",
         name: "Leadership"
     });
-
+    item.class = 'hidden-print'
     resume.experience.items.push(item);
     
     item = {
