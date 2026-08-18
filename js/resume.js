@@ -17,7 +17,6 @@ app.controller('ResumeCtrl', function($scope) {
     info.gitHub = "andre-campos";
     info.facebook = "andre.n.campos";
     info.linkedin = "andrencampos";
-    info.photoUrl = "https://media.licdn.com/mpr/mpr/shrink_200_200/p/3/000/00d/39b/267fc2f.jpg";
     info.bio = "André completed his undergrad at UVic and returned to his hometown, Manaus in 2007. He nearly moved to Europe for more education at ETH Zurich, but life threw a curve ball at him. Instead, he stayed in Manaus in order to battle cancer and completed a Masters program while doing that. He then created an application for customs clearance, which was first adopted by his family business. Inspired by the Stanford Ignite program, André turned that into a SaaS venture of its own. He decided to move back to Canada and reboot his career to join the entertainment industry in 2017.";
     info.twitter = undefined;
     resume.info = info;
@@ -58,15 +57,55 @@ app.controller('ResumeCtrl', function($scope) {
 
 item = {
         title: "Senior Engineering Manager",
+        company: "Demonware/Activision",
+        location: "Remote",
+        from: "07/2023",
+        to: "present"
+    };
+    item.url = "https://www.demonware.net";
+    item.duties = [];
+
+    item.duties.push("Partnered with studios and Global Analytics to establish and execute an experimentation roadmap for matchmaking features in Call of Duty")
+    item.duties.push("Obsessed over matchmaking KPIs and player experience in the Call of Duty franchise");
+    item.duties.push("Championed the adoption of AI tools to boost engineer productivity");
+    item.duties.push("Attracted and retained talent by leading several interview loops and promoting multiple engineers");
+
+    item.skills = [];
+
+    item.skills.push({
+        proficiency: "high",
+        name: "Python",
+    });
+    item.skills.push({
+        proficiency: "high",
+        name: "Kubernetes",
+    });
+    item.skills.push({
+        proficiency: "high",
+        name: "C++"
+    });
+    item.skills.push({
+        proficiency: "high",
+        name: "Project Management"
+    });
+    item.skills.push({
+        proficiency: "high",
+        name: "Leadership"
+    });
+
+    resume.experience.items.push(item);
+
+item = {
+        title: "Senior Engineering Manager",
         company: "Twitch/IVS",
         location: "Remote",
         from: "11/2021",
-        to: "present"
+        to: "06/2023"
     };
     item.url = "https://www.twitch.tv";
     item.duties = [];
 
-    item.duties.push("Supported a group of 5 high-performing engineers (mostly senior) in charge of maintaining and enhancing services that support the global video infrastructure behind Twitch and IVS")
+    item.duties.push("Supported a group of 5 high-performing engineers in charge of maintaining and enhancing services that support the global video infrastructure behind Twitch and IVS")
     item.duties.push("Led efforts to address technical debt and improve processes, testing coverage, and overall code quality through code reviews and documentation -- and got glowing reviews from direct reports");
     item.duties.push("Handled company-wide responses and wrote post-mortems to various high-severity Twitch and IVS incidents");
     item.duties.push("Attracted and retained talent by leading several interview loops and promoting multiple engineers");
@@ -94,7 +133,7 @@ item = {
 
     item = {
         title: "Engineering Manager",
-        company: "Demonware",
+        company: "Demonware/Activision",
         location: "Vancouver, BC Canada",
         from: "08/2020",
         to: "11/2021"
@@ -128,7 +167,7 @@ item = {
         proficiency: "high",
         name: "Leadership"
     });
- 
+
     resume.experience.items.push(item);
 
     item = {
@@ -142,7 +181,7 @@ item = {
     item.duties = [];
 
     item.duties.push("Led a team of 10+ Engineers (devs and SREs) responsible for creating online features for Call of Duty: Modern Warfare");
-    item.duties.push("Worked closely with Infinity Ward and High Moon Studios to deliver novel services for cross-play support");   
+    item.duties.push("Worked closely with Infinity Ward and High Moon Studios to deliver novel services for cross-play support");
     item.duties.push("Led planning and building out services in Kubernetes for the first time in Demonware history at a large scale");
 
     item.skills = [];
@@ -167,7 +206,7 @@ item = {
         proficiency: "high",
         name: "Leadership"
     });
- 
+
     resume.experience.items.push(item);
 
     item = {
@@ -203,7 +242,7 @@ item = {
         proficiency: "high",
         name: "MySQL"
     });
- 
+
     resume.experience.items.push(item);
 
 
@@ -226,7 +265,7 @@ item = {
         proficiency: "high",
         name: "AngularJS",
     });
-    
+
     item.skills.push({
         proficiency: "high",
         name: "Java (Spring + Hibernate)"
@@ -249,7 +288,7 @@ item = {
     });
     item.class = 'hidden-print'
     resume.experience.items.push(item);
-    
+
     item = {
         title: "IT Director",
         company: "Reck Aduaneira da Amazônia",
@@ -605,7 +644,7 @@ item = {
         stars: [true, true, true, true, true],
         country: 'ca'
     });
- 
+
     resume.interests = ["Family", "Soccer", "Traveling", "Cooking", "Music", "Udacity courses"];
     resume.references = "Excellent references available upon request";
     $scope.resume = resume;
